@@ -1,22 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html>
     <head>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery-3.6.0.min copy.js"></script>
-        <script src="js/statics.js"></script>
-        
+        <script src="js/jquery-3.6.0.min copy.js"></script>  
         <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
-        <div id="navbar"></div>
-          <main class="container">
-            <figure class="figure">
-                <img src="assets/buffalo1.jpg" class="figure-img img-fluid rounded" alt="rasgele bir bufalo">
-                <figcaption class="figure-caption text-end">Rasgele bir bufalo</figcaption>
-              </figure>
-          </main>
+        <div class="container-fruit bg-primary p-4 rounded">
+            <h1 class="text-light text-center">Welcome</h1>
+            <p class="text-light text-center">This site is İbrahim Cem Öksüz's personal site. </p>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+ 
+                <ul class="nav navbar-nav">
+                  <li class="nav-item"><a class="nav-link">Home</a></li>
+                  <li class="nav-item"><a class="nav-link">About me</a></li> 
+                  <li class="nav-item"><a class="nav-link">My Portofolio</a></li>  
+                  <li class="nav-item"><a class="nav-link">Contact me</a></li>
+                </ul>
+
+        </nav>
+        <div class="container">
+            <!-- Carousel -->
+            <div id="slide" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#slide" data-bs-slide-to="3"></button>
+                </div>
+            
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/buffalo1.jpg" alt="Los Angeles" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/ostrich7.jpg" alt="Chicago" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/squid0.jpg" alt="New York" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/alligator2.jpg" alt="New York" class="d-block w-100">
+                </div>
+                </div>
+            
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+             
+            
+            
+            </div>
+            <div class="row">
+                <div class="col-sm-6" style="background-color: yellowgreen;">
+                    asdasdas
+                </div>
+                <div class="col-sm-6" style="background-color: orangered;">
+                    asdasdas
+                </div>
+            </div>
+        </div>
     </body>
-</htm
+</html>
